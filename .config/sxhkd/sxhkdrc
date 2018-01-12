@@ -1,0 +1,19 @@
+XF86AudioRaiseVolume
+	amixer set Master 5%+
+XF86AudioLowerVolume
+	amixer set Master 5%-
+XF86AudioMute 
+	amixer set Master toggle
+
+XF86AudioStop
+	mpc stop
+XF86AudioPlay
+	mpc toggle
+XF86AudioPrev
+	mpc prev
+XF86AudioNext
+	mpc next
+
+super+r
+	bashrun --toggle
+

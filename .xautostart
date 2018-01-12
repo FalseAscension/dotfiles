@@ -1,0 +1,9 @@
+xsetroot -solid "#2D2D2D" &
+~/.fehbg
+
+sxhkd &
+xcompmgr &
+
+pasystray &
+nm-applet &
+cbatticon &

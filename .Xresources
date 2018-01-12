@@ -1,0 +1,60 @@
+Xft.lcdfilter:         	    lcddefault
+Xft.antialias: 	    	    true
+Xft.rgba:	        	    rgb
+Xft.dpi:		            96
+
+*font:            	        xft:Inconsolata:size=10
+*letterSpace:		        0
+
+URxvt.termName:		        xterm-color
+URxvt.scrollstyle:     	    plain
+URxvt.scrollBar_right: 	    true
+URxvt.iso14755:             False
+
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.perl-ext-common: 	    default,matcher
+
+URxvt.keysym.Home:          \033[1~
+URxvt.keysym.End:           \033[4~
+URxvt.keysym.KP_Home:       \033[1~
+URxvt.keysym.KP_End:        \033[4~
+
+URxvt.url-launcher: 	    firefox
+URxvt.matcher.button: 	    1
+URxvt.colorUL: 		        #7ECCB2
+
+*.background:		        #2D2D2D
+*.foreground:		        #ffffff
+*.cursorColor:		        #3D3D3D
+
+! ! black
+ *.color0:                  #201c20
+ *.color8:                  #7a6f79
+! ! red
+ *.color1:                  #c000c0
+ *.color9:                  #cd2727
+
+! ! green
+ *.color2:                  #5dbd2d
+ *.color10:                 #398c10
+
+! ! yellow
+ *.color3:                  #fadf5c
+ *.color11:                 #d7ffaf
+
+! ! blue
+ *.color4:                  #1f61a0
+ *.color12:                 #33608b
+
+! ! magenta
+ *.color5:                  #8f1b9b
+ *.color13:                 #af5faf
+
+! ! cyan
+ *.color6:                  #ffbce6
+ *.color14:                 #ffbce6
+
+! ! white
+ *.color7:                  #85daff
+ *.color15:                 #ffeafa
