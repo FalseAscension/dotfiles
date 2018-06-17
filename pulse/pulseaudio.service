@@ -1,0 +1,14 @@
+[Unit]
+Description=Pulse Audio Global (own user) Sound Service
+Requires=pulseaudio.socket
+
+[Service]
+Type=notify
+RuntimeDirectory=pulse
+User=pulse
+ExecStart=/usr/bin/pulseaudio --daemonize=no
+Restart=on-failure
+
+[Install]
+Also=pulseaudio.socket
+WantedBy=default.target
