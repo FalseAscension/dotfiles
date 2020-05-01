@@ -3,10 +3,10 @@ Xft.antialias: 	    	    true
 Xft.rgba:	        	    rgb
 Xft.dpi:		            96
 
-*font:            	        xft:Inconsolata\ for\ Powerline:size=10
+*font:            	        xft:Inconsolata for Powerline:size=10
 *letterSpace:		        0
 
-URxvt.termName:		        xterm-color
+URxvt.termName:		        rxvt-unicode
 URxvt.scrollstyle:     	    plain
 URxvt.scrollBar_right: 	    true
 URxvt.iso14755:             False
